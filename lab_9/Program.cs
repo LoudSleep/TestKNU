@@ -33,7 +33,7 @@ namespace lab_9
             }
             else
             {
-                Console.WriteLine("Точка находиться за полями фигур!");
+                Console.WriteLine("Точка (" + x_test + "," + y_test + ") находиться за полями фигур!");
             }
 
             Console.Write("\n");
