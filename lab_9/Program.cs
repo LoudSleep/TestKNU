@@ -66,6 +66,10 @@ namespace lab_9
                                     Console.WriteLine("Точка " + $"({num1[i, j]},{num1[i, j + 1]})" + " находиться на полях фигуры В!");
                                 }
                             }
+                            else
+                            {
+                                Console.WriteLine("Точка " + $"({num1[i, j]},{num1[i, j + 1]})" + " находиться за полями фигур!");
+                            }
                         }
                         else
                         {
