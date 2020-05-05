@@ -24,11 +24,11 @@ namespace lab_9
             {
                 if (r >= h)
                 {
-                    Console.WriteLine("Точка находиться на полях фигур А и В!");
+                    Console.WriteLine("Точка (" + x_test + "," + y_test + ") находиться на полях фигур А и В!");
                 }
                 else
                 {
-                    Console.WriteLine("Точка находиться на полях фигуры В!");
+                    Console.WriteLine("Точка (" + x_test + "," + y_test + ") находиться на полях фигуры В!");
                 }
             }
             else
